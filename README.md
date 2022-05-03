@@ -1,8 +1,40 @@
 # codebook
 
 
-```bash
-ssh ubuntu@192.168.122.3 'cat .kube/config' > ~/.kube/config_microk8s
 
-export KUBECONFIG=~/.kube/config_microk8s
+Start Script 
+
+Tags :
+
+```<c>``` = Check prev command is successfully run or not . 
+
+```<k:all``` = Check all pods are running or not  
+
+```<k:p:pod_name``` = Check a particular is created and is in running phase 
+
+
+Note : 
+
+1. Before using **<k:all , <k:p:pod_name** kube-config file must be present in local system .kube directory i.e. 
+  
+Always cp config file from remote to local 
+  
+Example
+```bash
+scp ubuntu@192.168.122.3:~/.kube/config ~/.kube/config
 ```
+
+2. ```<c>``` check tag must be use on the next line of the command.
+
+Example
+
+```
+ls
+<c>
+mkdir test
+<c>
+```
+
+3. Kubectl must be installed in remote machine so that it can give update when pods not ready 
+
+
