@@ -24,7 +24,7 @@ Ctrl + K
 ```<k:p:pod_name``` = Check a particular is created and is in running phase 
 
 
-**Note : **
+**Note :**
 
 1. Before using **<k:all , <k:p:pod_name** kube-config file must be present in local system .kube directory i.e. 
   
