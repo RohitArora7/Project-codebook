@@ -6,11 +6,11 @@ Start Script
 
 **Shortcut :**
 
-Ctrl + I
-Ctrl + O
+Ctrl + I\
+Ctrl + O\
 Ctrl + P
 
-Ctrl + L
+Ctrl + L\
 Ctrl + K
 
 
