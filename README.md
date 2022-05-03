@@ -38,3 +38,6 @@ mkdir test
 3. Kubectl must be installed in remote machine so that it can give update when pods not ready 
 
 
+4. A temp.txt file is created at location /tmp for lower text editor and text inside lower text editor is automatically saved when deselected.
+   Also, temp.txt is temporary and will delete automatically when OS restart 
+
