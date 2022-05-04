@@ -6,22 +6,34 @@ Start Script
 
 **Shortcut :**
 
-Ctrl + I\
-Ctrl + O\
-Ctrl + P
+EDITOR SHORTCUT
+Ctrl + i : Resize Editor to 20 %
+Ctrl + o : Resize Editor to 50 %
+Ctrl + p : Resize Editor to 70 % 
+Ctrl + l : Auto select the single command and send it to terminal
+Ctrl + k : Send selected command to terminal
 
-Ctrl + L\
-Ctrl + K
+TERMINAL SHORTCUT
+
+Ctrl + l : Clear the terminal
+Ctrl + Insert : copy from terminal
+Shift + Terminal : paste into terminal
+
+APPLICATION SHORTCUT
+
+Ctrl + w : Exit application
+Ctrl + m : Minimize application
+Ctrl + Shift + r : Restart application
 
 
 
 **Tags :**
 
-```<c>``` = Check prev command is successfully run or not . 
+```<c>``` : Check prev command is successfully run or not . 
 
-```<k:all``` = Check all pods are running or not  
+```<k:all``` : Check all pods are running or not  
 
-```<k:p:pod_name``` = Check a particular is created and is in running phase 
+```<k:p:pod_name``` : Check a particular is created and is in running phase 
 
 
 **Note :**
