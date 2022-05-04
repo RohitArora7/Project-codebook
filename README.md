@@ -32,7 +32,7 @@ Ctrl + Shift + r : Restart application
 
 ```<k:all``` : Check all pods are running or not  
 
-```<k:p:pod_name``` : Check a particular is created and is in running phase 
+```<k:p:pod_name``` : Check a particular pod is created and is in running phase 
 
 
 **Note :**
@@ -43,9 +43,11 @@ Always cp config file from remote to local
   
 Example
 ```bash
-scp ubuntu@192.168.122.3:~/.kube/config ~/.kube/config
-
-scp ~/.kube/config rohit@192.168.0.110:~/.kube/config
+scp remote@ip:~/.kube/config ~/.kube/config
+```
+or
+```bash
+scp ~/.kube/config local@ip:~/.kube/config
 ```
 
 2. ```<c>``` check tag must be use on the next line of the command.
