@@ -33,6 +33,8 @@ Always cp config file from remote to local
 Example
 ```bash
 scp ubuntu@192.168.122.3:~/.kube/config ~/.kube/config
+
+scp ~/.kube/config rohit@192.168.0.110:~/.kube/config
 ```
 
 2. ```<c>``` check tag must be use on the next line of the command.
