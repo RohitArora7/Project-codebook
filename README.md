@@ -2,20 +2,19 @@
 
 
 
-Start Script 
-
 **Shortcut :**
 
 EDITOR SHORTCUT
+
 Ctrl + i : Resize Editor to 20 %
 Ctrl + o : Resize Editor to 50 %
 Ctrl + p : Resize Editor to 70 % 
-Ctrl + l : Auto select the single command and send it to terminal
+Ctrl + L : Auto select the single command and send it to terminal
 Ctrl + k : Send selected command to terminal
 
 TERMINAL SHORTCUT
 
-Ctrl + l : Clear the terminal
+Ctrl + L : Clear the terminal
 Ctrl + Insert : copy from terminal
 Shift + Terminal : paste into terminal
 
