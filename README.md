@@ -2,26 +2,26 @@
 
 
 
-**Shortcut :**
+**Shortcuts :**
 
 EDITOR SHORTCUT
 
-Ctrl + i : Resize Editor to 20 %
-Ctrl + o : Resize Editor to 50 %
-Ctrl + p : Resize Editor to 70 % 
-Ctrl + L : Auto select the single command and send it to terminal
+Ctrl + i : Resize Editor to 20 %\
+Ctrl + o : Resize Editor to 50 %\
+Ctrl + p : Resize Editor to 70 %\
+Ctrl + L : Auto select the single command and send it to terminal\
 Ctrl + k : Send selected command to terminal
 
 TERMINAL SHORTCUT
 
-Ctrl + L : Clear the terminal
-Ctrl + Insert : copy from terminal
-Shift + Terminal : paste into terminal
+Ctrl + L : Clear the terminal\
+Ctrl + Insert : Copy from terminal\
+Shift + Terminal : Paste into terminal
 
 APPLICATION SHORTCUT
 
-Ctrl + w : Exit application
-Ctrl + m : Minimize application
+Ctrl + w : Exit application\
+Ctrl + m : Minimize application\
 Ctrl + Shift + r : Restart application
 
 
