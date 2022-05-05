@@ -16,7 +16,7 @@ TERMINAL SHORTCUT
 
 Ctrl + L : Clear the terminal\
 Ctrl + Insert : Copy from terminal\
-Shift + Terminal : Paste into terminal
+Shift + Insert : Paste into terminal
 
 APPLICATION SHORTCUT
 
