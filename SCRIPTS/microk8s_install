@@ -1,0 +1,37 @@
+###################Microk8s
+<c>
+sudo snap install microk8s --classic
+<c>
+mkdir .kube
+<c>
+sudo usermod -a -G microk8s ubuntu
+sudo chown -f -R ubuntu ~/.kube
+<c>
+exit
+<c>
+ssh ubuntu@192.168.122.3
+<c>
+cd .kube
+microk8s config > config
+chmod go-r ~/.kube/config
+cd ..
+<c>
+exit
+<c>
+scp ubuntu@192.168.122.3:~/.kube/config ~/.kube/config
+<c>
+ssh ubuntu@192.168.122.3
+<c>
+<k:all
+<c>
+###### Enable Firewall
+sudo ufw allow in on cni0 && sudo ufw allow out on cni0
+sudo ufw default allow routed
+<c>
+###### Enable More Features
+microk8s enable dns dashboard storage
+<c>
+<k:p:hostpath-provisioner
+<c>
+<k:all
+<c>
