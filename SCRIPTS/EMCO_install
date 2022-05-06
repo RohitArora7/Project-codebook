@@ -1,0 +1,34 @@
+######EMCO
+git clone https://git.onap.org/multicloud/k8s
+<c>
+######Create onap4k8s namespace.
+kubectl create namespace onap4k8s
+kubectl config set-context $(kubectl config current-context) --namespace=onap4k8s
+<c>
+######EMCO modules deployment.
+cd ~/k8s/deployments/kubernetes
+<c>
+######Open the onap4k8s.yaml and replace the image path 'emcov2/emco:stable' with 'amcop/emco:stable' for all the five modules.
+sed -i 's/emcov2/amcop/g' onap4k8s.yaml
+<c>
+kubectl apply -f onap4k8sdb.yaml -n onap4k8s
+<c>
+<k:p:mongo
+<c>
+kubectl apply -f onap4k8s.yaml -n onap4k8s
+<c>
+<k:all
+<c>
+######-EMCOUI deployment.
+cd ~/k8s/src/tools/emcoui/helm/emcoui
+sed -i 's/master/v2.1.0/g' values.yaml
+cd ..
+<c>
+helm install emcoui emcoui --namespace onap4k8s
+<c>
+<k:all
+<c>
+exit
+<c>
+google-chrome http://192.168.122.3:30480/app/admin/projects
+<c>
