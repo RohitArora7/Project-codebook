@@ -30,5 +30,4 @@ helm install emcoui emcoui --namespace onap4k8s
 <c>
 exit
 <c>
-google-chrome http://192.168.122.3:30480/app/admin/projects
-<c>
+
