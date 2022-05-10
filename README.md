@@ -2,7 +2,7 @@
 
 
 
-**Shortcuts :**
+**Shortcuts :**___________________________________________________________
 
 > EDITOR SHORTCUT
 
@@ -26,7 +26,7 @@ Ctrl + Insert : Copy from terminal.\
 Shift + Insert : Paste into terminal.
 
 
-**Tags :**
+**Tags :**________________________________________________________________
 
 ```<c>``` : Check prev command is successfully run or not. 
 
@@ -35,7 +35,7 @@ Shift + Insert : Paste into terminal.
 ```<k:p:pod_name``` : Check a particular pod is created and is in running phase.
 
 
-**Note :**
+**Note :**________________________________________________________________
 
 1. Before using **<k:all , <k:p:pod_name** kube-config file must be present in local system .kube directory i.e. 
   
@@ -68,7 +68,7 @@ mkdir test
    Also, temp.txt is temporary and will delete automatically when OS restart.
 
 
-**FAQ**
+**FAQ**___________________________________________________________________
 
 > Codebook not starting.
 * Make sure system has active internet connection.
@@ -83,7 +83,7 @@ mkdir test
 * Make sure editor part is clicked/selected before shortcut pressed , If terminal is clicked/selected than Ctrl + b,n,m will not work.
   
 
-**Bugs**
+**Bugs**____________________________________________________________________
   
-> Terminal Font spacing issue.
+> Terminal Font spacing issue.\
 > Long command has overlap view issue.
